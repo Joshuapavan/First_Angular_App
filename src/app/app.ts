@@ -6,11 +6,11 @@ import { Greeting } from './components/greeting/greeting';
 
 @Component({
   selector: 'app-root',
-  imports: [Home, Header],
+  imports: [Header, RouterOutlet],
   template: `
     <app-header />
     <main>
-      <app-home />
+      <router-outlet/>
     </main>
   `,
   styles: [
