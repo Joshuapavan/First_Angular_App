@@ -7,17 +7,17 @@ import { Component, signal } from '@angular/core';
   styleUrl: './counter.scss',
 })
 export class Counter {
-  count = signal(0);
+  counterValue = signal(0);
 
   increaseCount(){
-    this.count.update(count => count + 1);
+    this.counterValue.update(count => count + 1);
   }
 
   resetCount(){
-    this.count.set(0);
+    this.counterValue.set(0);
   }
 
   decreaseCount(){
-    this.count.update(count => count - 1);
+    this.counterValue.update(count => count - 1);
   }
 }
