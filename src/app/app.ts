@@ -24,3 +24,4 @@ import { Greeting } from './components/greeting/greeting';
 export class App {
   protected title = 'first-ng-app';
 }
+ 

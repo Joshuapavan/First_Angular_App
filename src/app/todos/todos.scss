@@ -1,0 +1,17 @@
+.todos{
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+}
+
+h3{
+  padding-left: 40px;
+}
+
+.todos-filter{
+  padding-left: 40px;
+  display: flex;
+  align-items:flex-start;
+}
